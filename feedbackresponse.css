@@ -1,0 +1,142 @@
+* {
+    margin:0;
+}
+
+
+body{
+    font-family: 'Pangolin', cursive, sans-serif;
+    font-size: 20px; 
+    line-height: 28px;
+    color:#E37435;
+    background-color:#FCF4E8;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*FADE IN ANIMATION*/ 
+
+* {
+    margin:0;
+}
+
+
+body{
+    font-family: 'Pangolin', cursive, sans-serif;
+    font-size: 20px; 
+    line-height: 28px;
+    color:#E37435;
+    background-color:#FCF4E8;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*FADE IN ANIMATION*/ 
+
+@keyframes fadeInUp {
+    0% {
+      transform: translatex(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translatex(0%);
+      opacity: 1;
+    }
+  }
+  
+  .fadeInUp-animation {
+    animation: 0.50s fadeInUp;
+  }
+
+/* Header and Navigation */
+
+header {
+    padding: 10px 15px 10px 15px; 
+    overflow: hidden;
+}
+
+header h1 {
+    float: left;
+    margin-top: 40px;
+}
+
+header nav {
+    float: center;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif; 
+    font-size: 26px;
+    font-weight: 100;
+}
+
+header nav a{
+    text-decoration: none;
+    margin-left: 85px;
+    color: #E37435;
+    transition: transform 250ms;
+    
+}
+
+header nav a:hover {
+    color:#F0DE5C;
+   
+        transform: translateY(-10px);
+
+
+}
+
+
+/*section 1*/
+h3 {
+    font-family: 'Pangolin', cursive, sans-serif;
+    font-size: 90px;
+    margin-bottom: 30px;
+   
+}
+p {
+  
+        font-family: 'Sarabun', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 200px;
+}
+.thankyou {
+   text-align: center;
+   margin-top: 40px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+footer {
+    padding: 10px 15px 10px 15px; 
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+footer h1 {
+    float: left;
+    font-size: 25px;
+    font-family: 'Varela Round', sans-serif; 
+}
+
+footer h4 {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif; 
+    font-size: 26px;
+    font-weight: 100;
+
+}

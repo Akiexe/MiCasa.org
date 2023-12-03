@@ -1,0 +1,246 @@
+* {
+    margin:0;
+}
+
+
+body{
+    font-family: 'Pangolin', cursive, sans-serif;
+    font-size: 20px; 
+    line-height: 28px;
+    color:#E37435;
+    background-color:#FCF4E8;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*FADE IN ANIMATION*/ 
+
+@keyframes fadeInUp {
+    0% {
+      transform: translatex(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translatex(0%);
+      opacity: 1;
+    }
+  }
+  
+  .fadeInUp-animation {
+    animation: 0.50s fadeInUp;
+  }
+
+/* Header and Navigation */
+
+header {
+    padding: 10px 15px 10px 15px; 
+    overflow: hidden;
+}
+
+header h1 {
+    float: left;
+    margin-top: 40px;
+}
+
+header nav {
+    float: center;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif; 
+    font-size: 26px;
+    font-weight: 100;
+}
+
+header nav a{
+    text-decoration: none;
+    margin-left: 85px;
+    color: #E37435;
+    transition: transform 250ms;
+    
+}
+
+header nav a:hover {
+    color:#F0DE5C;
+   
+        transform: translateY(-10px);
+
+
+}
+
+
+/* INTRO SECTION*/
+
+.intro div {
+    text-align: center;
+    margin-top: -44px;
+  
+        justify-content: center;
+        background-image: url(images/background\ squiggles.png);
+        background-size: 853px;
+      
+}
+
+.intro img {
+border-radius: 50px;
+
+}
+
+.intro h2 {
+    font-size: 57px;
+    padding-bottom: 50px;
+}
+
+
+/* INGREDIENTS SECTION*/
+
+
+.container {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    margin-left: 81px;
+    margin-bottom: 200px;
+
+  }
+  
+  .container img {
+ float: left;
+ margin-top: -84px;
+padding-right: 95px;
+  }
+  
+  .container text {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20%;
+    float: left;
+    margin-left: 90px;;
+    
+  }
+
+  .container h3 {
+    margin-top: -30px;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 50px;
+    background-color: #FCF4E8;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right:80px
+  }
+
+
+ ul {
+    list-style: none;
+    line-height: 50px;
+    margin-left: -18px;
+ }
+
+
+
+
+
+.rectangle1  {
+    border-top: 13px dashed #F0DE5C;
+    margin-top: 190px;
+}
+
+.checkbox {
+    padding-right: 20px;
+}
+
+
+/* RECIPE SECTION*/
+
+
+.container2 {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+
+
+  }
+  
+  .container2 img {
+ float: left;
+ margin-top: 109px;
+ margin-right: 108px;
+ margin-left: 96px;
+
+  }
+  
+  .container2 text {
+    font-size: 20px;
+
+    padding-left: 20px;
+    padding-top: 20%;
+    float: left;
+    
+    
+  }
+
+  .container2 h4 {
+    margin-top: -30px;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 272px;
+    background-color: #FCF4E8;
+    padding-bottom: 110px;
+    
+  }
+
+
+ ol {
+
+    line-height: 35px;
+    margin-left: -10px;
+    max-width: 65%;
+    font-size: 16px;
+ }
+
+ol li {
+    margin-bottom:20px;
+}
+
+ .rectangle2  {
+    position:relative;
+    border-top: 30px solid #F0DE5C;
+    width: 40%;
+    margin-top: 190px;
+    margin-left: 876px;
+    margin-bottom: -12px;
+
+}
+
+
+
+
+
+/*FOOTER*/
+
+
+
+footer {
+    padding: 10px 15px 10px 15px; 
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+footer h1 {
+    float: left;
+    font-size: 25px;
+    font-family: 'Varela Round', sans-serif; 
+}
+
+footer h4 {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif; 
+    font-size: 26px;
+    font-weight: 100;
+
+}
+
+
+

@@ -1,0 +1,290 @@
+* {
+    margin:0;
+}
+
+
+body{
+    font-family: 'Pangolin', cursive, sans-serif;
+    font-size: 20px; 
+    line-height: 28px;
+    color:#E37435;
+    background-color:#FCF4E8;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*FADE IN ANIMATION*/ 
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  
+  .fadeInUp-animation {
+    animation: 1.5s fadeInUp;
+  }
+
+/* Header and Navigation */
+
+header {
+    padding: 10px 15px 10px 15px; 
+    overflow: hidden;
+}
+
+header h1 {
+    float: left;
+    margin-top: 40px;
+}
+
+header nav {
+    float: center;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif; 
+    font-size: 26px;
+    font-weight: 100;
+}
+
+header nav a{
+    text-decoration: none;
+    margin-left: 85px;
+    color: #E37435;
+    transition: transform 250ms;
+    
+}
+
+header nav a:hover {
+    color:#F0DE5C;
+   
+        transform: translateY(-10px);
+
+
+}
+
+/* Section 1 */
+
+.intro div {
+    text-align: center;
+    margin-top: -100px;
+}
+
+.intro img {
+    border-top-left-radius: 600px;
+    border-top-right-radius: 600px;
+    border: 10px solid #F07148;
+
+}
+
+.intro h2 {
+    font-size: 57px;
+    padding-top: 45px ;
+    
+}
+/* Section 2*/
+
+
+.dishes {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-image: url(images/background\ squiggles.png);
+    background-size: cover;
+    background-position: left center;
+    margin-top: 150px;
+}
+
+
+
+.dishes div {
+    text-align: left;
+    max-width: fit-content;
+    margin-right: 92px;
+    margin-left:50px;
+    float: center;
+}
+
+.dishes img {
+    float: left;
+margin-left: -40px;
+}
+
+.dishes h3 {
+    padding-top:250px;
+
+    font-size: 40px;
+    padding-left: px;
+ 
+
+ 
+
+}
+
+.dishes h3 {
+    float: left;
+    border-bottom: 8px solid #F0DE5C  ;
+
+}
+
+.dishes p {
+    font-size: 16px;
+font-family: 'Sarabun', sans-serif;
+font-weight: 100;
+margin-left: 70px;
+margin-top: 276px;
+
+}
+
+/* Section 3 */
+
+.section3 {
+
+    padding-top: 150px;
+
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+}
+.image img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite; }
+
+
+    .image img:hover {
+        /* Start the shake animation and make the animation last for 0.5 seconds */
+        animation: shake 0.5s;
+      
+        /* When the animation is finished, start again */
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+      }
+
+.text {
+    font-size: 30px;
+    padding-left: 20px;
+    font-weight: 100;
+}
+
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: -90px;
+
+}
+
+.image2 {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: -60px;
+
+
+}
+
+.image2 img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite; }
+
+
+    .image2 img:hover {
+        /* Start the shake animation and make the animation last for 0.5 seconds */
+        animation: shake 0.5s;
+      
+        /* When the animation is finished, start again */
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+      }
+
+.text2 {
+    font-size: 30px;
+    padding-left: 20px;
+    font-weight: 100;
+    margin-left: -30px;
+}
+
+
+.image3{
+    position: relative;
+    margin-left: 140px;
+    margin-top: -400px
+
+}
+
+
+/*FOOTER*/
+
+
+
+footer {
+    padding: 10px 15px 10px 15px; 
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+footer h1 {
+    float: left;
+    font-size: 25px;
+    font-family: 'Varela Round', sans-serif; 
+}
+
+footer h4 {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif; 
+    font-size: 26px;
+    font-weight: 100;
+
+}
+
+
